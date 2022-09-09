@@ -55,7 +55,7 @@ function onClickGallery(e) {
     document.addEventListener("keydown", escClose);
 
         function escClose(event) {
-        if (event.key === "Escape") {
+          if (event.key === "Escape") {
           divGallery.remove();
           document.removeEventListener("keydown", escClose);
         }
